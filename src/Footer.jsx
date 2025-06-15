@@ -16,7 +16,7 @@ function Footer(){
                 <ul className="footer-details">
                     <li><Link to="/About" className="my-footer-details">About Me</Link></li>
                     <li><Link to="/Internships" className="my-footer-details">Internships</Link></li>
-                    <li><Link to="/Project" className="my-footer-details">Projects</Link></li>
+                    <li><Link to="/Projects" className="my-footer-details">Projects</Link></li>
                     <li><Link to="Certifications" className="my-footer-details">Certifications</Link></li>
                 </ul>
             </div>
