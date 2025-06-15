@@ -1,42 +1,386 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
+/* ==================================== */
+/* Css Reset */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ========================================== */
+/* Header */
+
+@media only screen and (min-width:1025px)and (max-width:1600px){
+.header-section{
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  background-color: #0f172a;
+  color: #f8fafc;
+  
+}
+.nameOfTheAuthor{
+  padding: 2% 2% 0% 2%;
+}
+
+.header-links{
+  display: flex;
+  flex-direction: row;
+   align-items: center;
+  justify-content: end;
+  gap: 30px; 
+  padding-right: 3%;
+  padding-bottom: 2%;
+}
+
+.header-links li{
+  list-style: none;
+  
+
+}
+.my-details{
+  text-decoration: none;
+  color:#38bdf8;
+  font-size: large;
+  font-weight: 400;
+}
+
+
+
+/* About  */
+/* ========================================== */
+.About{
+  display: flex;
+  flex-direction: column;
+  padding: 10% 10%;
+  height: 100vh;
+  background-color: #393E46;
+}
+
+.aboutContent{
+  font-size: large;
+  font-weight: 400;
+  font-family: 'Times New Roman', Times, serif;
+  margin: 2%;
+}
+
+
+
+/* Main Content */
+/* ========================================== */
+/* .main-content{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 5% ;
+  background-color: #DBE2EF;
+} */
+ .main-content{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 15% 10%;
+  background-color: #393E46;
+ }
+.my-profile{
+  margin-left: 35%;
+  padding-left: 10%;
+}
+.my-name{
+ text-align: center;
+ font-size: xx-large;
+ font-weight: 700;
+}
+.my-profession{
+  text-align: center;
+  font-size: x-large;
+  font-weight: 400;
+  padding: 1% 0%;
+}
+
+
+
+
+/* Certifications */
+/* ============================================= */
+
+.certificates{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 5% 10%;
+  background-color: #393E46;
+}
+.certificate-main-header{
+  color: whitesmoke;
+  padding-bottom:2% ;
+}
+.certificate-cards{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  gap: 40px;
+  
+}
+.sqlCertificate{
+  height: 100%;
+  width: 100%;
+  border: 2px solid black;
+  border-radius: 20px;
+  background-color: #e0f7fa;
+}
+
+.iipeCertificate{
+   height: 100%;
+  width: 100%;
+  border: 2px solid black;
+   border-radius: 20px;
+   background-color: #e0f7fa;
+}
+.aimersCertificate{
+  height: 100%;
+  width: 100%;
+  border: 2px solid black;
+   border-radius: 20px;
+   background-color: #e0f7fa;
+}
+.freeCodeCampCertificate{
+  height: 100%;
+  width: 100%;
+  border: 2px solid black;
+   border-radius: 20px;
+   background-color: #e0f7fa;
+}
+.certificate-header {
+  padding: 2%;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: x-large;
+  font-weight: 2rem;
+  color:#0c23a3 ;
+  
+}
+.certificate-content{
+  padding: 3% 5%;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: large;
+  font-weight: 300;
+}
+
+.certificate-issued-date{
+  padding: 0% 5% 1% 5%;
+  font-size: large;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 300;
+}
+.certificate-button{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 3%;
+  
+  
+  
+}
+.view-certificate {
+  border: 2px solid black;
+  border-radius: 5px;
+  text-align: right;
+ margin-right: 30%;
+ padding: 5% 20%;
+ 
+  
+}
+
+/* ================================================= */
+/* Projects */
+.projects{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 5% 10%;
+  height: 100vh;
+  background-color: #393E46;
+}
+.main-project-header{
+  color: whitesmoke;
+  padding-bottom: 5%;
+}
+.project-details{
+  padding: 3% 5%;
+ 
+ border: 2px solid white;
+ border-radius: 30px;
+}
+.project-header{
+  color: hsl(208, 49%, 74%);
+  font-size: x-large;
+  font-weight: 500;
+  text-align: center;
+  padding-bottom: 2%;
+}
+.project-location{
+  padding: 2%;
+  font-size: large;
+  font-weight: 500;
+  color: #DBE2EF;
+}
+.project-content-list{
+  padding:  1% 5%;
+  line-height: 2rem;
+  
+}
+.project-content{
+  font-size: large;
+  font-weight: 400;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.technology-stack{
+  display: grid;
+  grid-template-columns: repeat(6,1fr);
+  /* padding-bottom: 20px; */
+  padding-left: 3%;
+}
+.tech{
+  border: 2px solid white;
+  height: 50%;
+  width: 75%;
+
+  border-radius: 5px;
+  padding: 20px;
+  background-color: #00ADB5;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   text-align: center;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
+
+/* =================================================== */
+/* Internship */
+.internships{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 5% 10%;
+  background-color: #393E46;
+
 }
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
+.internship-main-header{
+  color: whitesmoke;
 }
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+.internship-types{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 5% 5%;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.project-name{
+   font-size: x-large;
+   font-weight: 500;
+   color: #b39de89d;
+   padding:2% 0% 2% 5%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+
+.institute-name{
+  font-size: xx-large;
+  font-weight: 500;
+  color: #38f88b9d;
+}
+.internship-certificate{ 
+  text-align: center;
+}
+.internship-certificate img{
+  display: inline-block;
+  align-items: center;
 }
 
-.card {
-  padding: 2em;
+.project-overview{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 3% 0% 3% 5%;
+  
+}
+.project-overview-details{
+  font-size: large;
+  font-weight: 400;
+  font-family: 'Times New Roman', Times, serif;
+  color: #bbc6ce;
+  
 }
 
-.read-the-docs {
-  color: #888;
+
+
+
+
+/* ========================================== */
+/* Footer */
+.footer-elements{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  background-color: lightgray;
+  font-family: 'Times New Roman', Times, serif;
+  padding: 2% 0px;
+  font-size: large;
+  font-weight: 300;
+}
+
+
+.role{
+  text-align: center;
+  font-size: xx-large;
+
+}
+.contact-info{
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  
+}
+.contact-details{
+  text-decoration: none;
+}
+.location{
+  text-align: center;
+}
+.footer-details{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  gap: 20px;
+  padding: 1% 0px;
+}
+.footer-details li{
+  list-style: none;
+}
+.my-footer-details{
+ list-style: none;
+ text-decoration: none;
+}
+.copyrights{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 20px;
+}
+.social-media{
+  display: flex;
+  flex-direction: row;
+  gap: 0;
+  text-align: center;
+  justify-content: center;
+ 
+}
+.social-media-links{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+
 }
