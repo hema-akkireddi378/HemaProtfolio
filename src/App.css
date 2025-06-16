@@ -14,12 +14,15 @@
   display: flex;
   flex-direction: column;
   gap: 3px;
-  background-color: #0f172a;
+  background-color: #000;
   color: #f8fafc;
   
 }
 .nameOfTheAuthor{
   padding: 2% 2% 0% 2%;
+  font-size: xx-large;
+  font-weight: 400;
+  font-family: 'Times New Roman', Times, serif;
 }
 
 .header-links{
@@ -39,7 +42,7 @@
 }
 .my-details{
   text-decoration: none;
-  color:#38bdf8;
+  color: #fff;
   font-size: large;
   font-weight: 400;
 }
@@ -53,7 +56,7 @@
   flex-direction: column;
   padding: 10% 10%;
   height: 100vh;
-  background-color: #393E46;
+  background-color: whitesmoke;
 }
 
 .aboutContent{
@@ -79,7 +82,7 @@
   flex-direction: column;
   gap: 20px;
   padding: 15% 10%;
-  background-color: #393E46;
+  background-color: whitesmoke;
  }
 .my-profile{
   margin-left: 35%;
@@ -94,7 +97,7 @@
   text-align: center;
   font-size: x-large;
   font-weight: 400;
-  padding: 1% 0%;
+  padding: 0% 0%;
 }
 
 
@@ -108,10 +111,10 @@
   flex-direction: column;
   gap: 10px;
   padding: 5% 10%;
-  background-color: #393E46;
+  background-color: whitesmoke;
 }
 .certificate-main-header{
-  color: whitesmoke;
+  color: black;
   padding-bottom:2% ;
 }
 .certificate-cards{
@@ -197,20 +200,20 @@
   gap: 10px;
   padding: 5% 10%;
   height: 100vh;
-  background-color: #393E46;
+  background-color: whitesmoke;
 }
 .main-project-header{
-  color: whitesmoke;
+  color: black;
   padding-bottom: 5%;
 }
 .project-details{
   padding: 3% 5%;
  
- border: 2px solid white;
+ border: 2px solid gray;
  border-radius: 30px;
 }
 .project-header{
-  color: hsl(208, 49%, 74%);
+  color: hsl(208, 87%, 25%);
   font-size: x-large;
   font-weight: 500;
   text-align: center;
@@ -220,7 +223,7 @@
   padding: 2%;
   font-size: large;
   font-weight: 500;
-  color: #DBE2EF;
+  color: #46d70d;
 }
 .project-content-list{
   padding:  1% 5%;
@@ -262,11 +265,11 @@
   flex-direction: column;
   gap: 20px;
   padding: 5% 10%;
-  background-color: #393E46;
+  background-color: whitesmoke;
 
 }
 .internship-main-header{
-  color: whitesmoke;
+  color: black;
 }
 .internship-types{
   display: flex;
@@ -278,7 +281,7 @@
 .project-name{
    font-size: x-large;
    font-weight: 500;
-   color: #b39de89d;
+   color: blueviolet;
    padding:2% 0% 2% 5%;
 }
 
@@ -286,7 +289,7 @@
 .institute-name{
   font-size: xx-large;
   font-weight: 500;
-  color: #38f88b9d;
+  color: green;
 }
 .internship-certificate{ 
   text-align: center;
@@ -307,7 +310,7 @@
   font-size: large;
   font-weight: 400;
   font-family: 'Times New Roman', Times, serif;
-  color: #bbc6ce;
+  color: rgb(40, 39, 39);
   
 }
 
@@ -342,6 +345,7 @@
 }
 .contact-details{
   text-decoration: none;
+  line-height: 1.8rem;
 }
 .location{
   text-align: center;
@@ -371,6 +375,7 @@
   display: flex;
   flex-direction: row;
   gap: 0;
+  margin: 1%;
   text-align: center;
   justify-content: center;
  

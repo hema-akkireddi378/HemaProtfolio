@@ -19,12 +19,14 @@ function Projects()
 
             </ul>
             <div className="technology-stack">
+                <button type="technology" className="tech">HTML</button>
+            <button type="technology" className="tech">CSS</button>
+             <button type="technology" className="tech">Java Script</button>
             <button type="technology" className="tech">React</button>
             <button type="technology" className="tech">Spring Boot</button>
             <button type="technology" className="tech">Rome Library</button>
             <button type="technology" className="tech">My SQL</button>
-            <button type="technology" className="tech">HTML</button>
-            <button type="technology" className="tech">CSS</button>
+            
             </div>
             </div>
             </div>

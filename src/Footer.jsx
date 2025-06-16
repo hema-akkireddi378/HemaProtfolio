@@ -12,14 +12,14 @@ function Footer(){
               <p className="location">Visakhaptnam, Andhra Pradesh</p>
             </div>
         
-            <div>
+            {/* <div>
                 <ul className="footer-details">
                     <li><Link to="/About" className="my-footer-details">About Me</Link></li>
                     <li><Link to="/Internships" className="my-footer-details">Internships</Link></li>
                     <li><Link to="/Projects" className="my-footer-details">Projects</Link></li>
                     <li><Link to="Certifications" className="my-footer-details">Certifications</Link></li>
                 </ul>
-            </div>
+            </div> */}
              <div className="social-media">
                 <Link to="https://github.com/hema-akkireddi378" >
                 <img src="https://img.icons8.com/?size=100&id=12599&format=png&color=1A1A1A" alt="git hub profile image" className="social-media-links" height="50%" width="40%"></img>

@@ -9,7 +9,7 @@ function MainContent(){
             <Certifications/> */}
             <img src="https://wallpapers.com/images/hd/pretty-profile-pictures-526voksmtgllopn4.jpg" alt="profile image" height="25%" width="20%" className="my-profile"></img>
             <h1 className="my-name">Akkireddi Hema</h1>
-            <h4 className="my-profession">Student , Fresher</h4>
+            <h4 className="my-profession">Fresher</h4>
             <div className="social-media">
                 <Link to="https://github.com/hema-akkireddi378" >
                 <img src="https://img.icons8.com/?size=100&id=12599&format=png&color=1A1A1A" alt="git hub profile image" className="social-media-links" height="50%" width="40%"></img>
